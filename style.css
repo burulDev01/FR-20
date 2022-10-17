@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500&family=Ruda:wght@400;500;600;700;800;900&display=swap");
+#header {
+  background: #1E2024;
+  min-height: 90%;
+}
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 10px;
+}
+#header .header--block--link {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #9099A3;
+  padding: 0 40px;
+  transition: 0.4s;
+}
+#header .header--block--link:hover {
+  transform: scale(1.1);
+  color: blue;
+}
+#header .header--global {
+  padding-right: 50px;
+}
+#header .header--global--btn {
+  width: 100px;
+  height: 40px;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin-left: 30px;
+  transition: 0.4s;
+}
+#header .header--global--btn:hover {
+  transform: scale(1.1);
+  color: #1E2024;
+}
+
+/*# sourceMappingURL=style.css.map */
