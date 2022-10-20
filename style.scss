@@ -215,12 +215,15 @@
         }
       }
     }
-
-
   }
 }
 
-
+#trip{
+  .trip{
+    display: flex;
+    align-items: center;
+  }
+}
 
 
 

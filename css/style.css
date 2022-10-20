@@ -188,4 +188,9 @@ a {
   margin-left: 40px;
 }
 
+#trip .trip {
+  display: flex;
+  align-items: center;
+}
+
 /*# sourceMappingURL=style.css.map */
