@@ -1,20 +1,24 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-a{
-  text-decoration:none
+
+a {
+  text-decoration: none
 
 }
-.container{
+
+.container {
   width: 85%;
   margin: 0 auto;
 }
-@mixin align{
+
+@mixin align {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 //@mixin btn{
 //  font-weight: 900;
 //  line-height: 22px;
