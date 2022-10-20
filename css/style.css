@@ -188,4 +188,80 @@ a {
   margin-left: 40px;
 }
 
+#top {
+  background: #1E2023;
+}
+#top .top--as {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 389px;
+}
+#top .top--as__an--block {
+  width: 80px;
+  height: 80px;
+  background: #1A5CFF;
+  border-radius: 10px;
+}
+#top .top--as__an--block__icon {
+  font-size: 55px;
+  color: #FFFFFF;
+  padding-left: 12px;
+  padding-top: 15px;
+}
+#top .top--as__an--you {
+  padding-top: 20px;
+}
+#top .top--as__an--you__title {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+#top .top--as__an--you__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  padding-top: 8px;
+  color: #FFFFFF;
+}
+
+#moon {
+  background: #1E2023;
+  padding-top: 100px;
+}
+#moon .moon--m {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#moon .moon--m__n--title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  padding: 0 0 203px;
+}
+#moon .moon--m__b {
+  padding-right: 45px;
+}
+#moon .moon--m__b--err {
+  display: flex;
+  padding: 0 10px 29px;
+}
+#moon .moon--m__b--err__icon {
+  font-size: 30px;
+  color: #1A5CFF;
+  padding-right: 40px;
+}
+#moon .moon--m__b--err__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
 /*# sourceMappingURL=style.css.map */
