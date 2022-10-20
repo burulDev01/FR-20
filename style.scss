@@ -2,33 +2,38 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500&family=Ruda:wght@400;500;600;700;800;900&display=swap');
 
-#header{
+#header {
   background: #1E2024;
   min-height: 90%;
-  .header{
+
+  .header {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 10px 10px;
-    &--block{
-      &--link{
-        font-family: 'Poppins',sans-serif;
+
+    &--block {
+      &--link {
+        font-family: 'Poppins', sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 21px;
         color: #9099A3;
         padding: 0 40px;
         transition: .4s;
-        &:hover{
+
+        &:hover {
           transform: scale(1.1);
           color: blue;
         }
       }
 
     }
-    &--global{
+
+    &--global {
       padding-right: 50px;
-      &--btn{
+
+      &--btn {
         width: 100px;
         height: 40px;
         background: #1A5CFF;
@@ -41,44 +46,49 @@
         margin-left: 30px;
         transition: .4s;
         border: none;
-        &:hover{
+
+        &:hover {
           transform: scale(1.1);
           background: transparent;
-          border: 2px solid rgba(74,0,147,0.93);
+          border: 2px solid rgba(74, 0, 147, 0.93);
         }
       }
     }
   }
 }
 
-#hero{
+#hero {
   background: url("/img/bg.svg") no-repeat center/cover;
   min-height: 100vh;
 
-  .hero{
-    &--first{
+  .hero {
+    &--first {
       display: flex;
       padding: 20px 20px;
       justify-content: flex-end;
-      &__h1{
+
+      &__h1 {
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
         color: #FFFFFF;
 
       }
-      &__p{
+
+      &__p {
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
         color: #2C3E50;
 
       }
-      &__icon{
-        color:black;
+
+      &__icon {
+        color: black;
       }
     }
-    &--title{
+
+    &--title {
       font-weight: 700;
       font-size: 36px;
       line-height: 44px;
@@ -88,112 +98,127 @@
       margin-top: 227px;
       margin-bottom: 60px;
     }
-    &--block{
+
+    &--block {
       width: 103%;
       height: 160px;
       background: #FFFFFF;
       border-radius: 15px;
 
-      &__in{
+      &__in {
         @include align();
         margin-top: 160px;
-        &--1{
+
+        &--1 {
           margin: 19px 48px 13px;
 
-            &--img{
-              width:37%;
-              margin-left: 12px;
+          &--img {
+            width: 37%;
+            margin-left: 12px;
 
-            }
-            &--h11{
-              font-weight: 700;
-              font-size: 20px;
-              line-height: 24px;
-              color: #2C3E50;
-              margin-bottom: 10px;
-
-            }
-            &--p1{
-              font-weight: 400;
-              font-size: 14px;
-              line-height: 17px;
-              color: #2C3E50;
-            }
           }
-          &--1m{
-            margin: 19px 48px 13px;
-            &__img{
-              width:47%;
-              margin-left: 36px;
 
-            }
-            &__h11{
-              font-weight: 700;
-              font-size: 20px;
-              line-height: 24px;
-              color: #2C3E50;
-              margin-bottom: 10px;
+          &--h11 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #2C3E50;
+            margin-bottom: 10px;
 
-            }
-            &__p1{
-              font-weight: 400;
-              font-size: 14px;
-              line-height: 17px;
-              color: #2C3E50;
-              margin-left: 33px;
-            }
           }
-          &--1v{
-            margin: 19px 48px 13px;
-            &__img{
-              width:83%;
-              margin-left: 2px;
-            }
-            &__h11{
-              font-weight: 700;
-              font-size: 20px;
-              line-height: 24px;
-              color: #2C3E50;
-              margin-bottom: 10px;
 
-            }
-            &__p1{
-              font-weight: 400;
-              font-size: 14px;
-              line-height: 17px;
-              color: #2C3E50;
-            }
+          &--p1 {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #2C3E50;
           }
-          &--1w{
-            margin: 19px 48px 13px;
-            &__img{
-              width:46%;
-              margin-left: 16px;
+        }
 
-            }
-            &__h11{
-              font-weight: 700;
-              font-size: 20px;
-              line-height: 24px;
-              color: #2C3E50;
-              margin-bottom: 10px;
+        &--1m {
+          margin: 19px 48px 13px;
 
-            }
-            &__p1{
-              font-weight: 400;
-              font-size: 14px;
-              line-height: 17px;
-              color: #2C3E50;
-              margin-left: 40px;
-            }
+          &__img {
+            width: 47%;
+            margin-left: 36px;
+
+          }
+
+          &__h11 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #2C3E50;
+            margin-bottom: 10px;
+
+          }
+
+          &__p1 {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #2C3E50;
+            margin-left: 33px;
+          }
+        }
+
+        &--1v {
+          margin: 19px 48px 13px;
+
+          &__img {
+            width: 83%;
+            margin-left: 2px;
+          }
+
+          &__h11 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #2C3E50;
+            margin-bottom: 10px;
+
+          }
+
+          &__p1 {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #2C3E50;
+          }
+        }
+
+        &--1w {
+          margin: 19px 48px 13px;
+
+          &__img {
+            width: 46%;
+            margin-left: 16px;
+
+          }
+
+          &__h11 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #2C3E50;
+            margin-bottom: 10px;
+
+          }
+
+          &__p1 {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #2C3E50;
+            margin-left: 40px;
           }
         }
       }
-
-
-
     }
+
+
   }
+}
 
 
 
