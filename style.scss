@@ -45,6 +45,7 @@
         color: #FFFFFF;
         margin-left: 30px;
         transition: .4s;
+
         border: none;
 
         &:hover {
@@ -56,6 +57,231 @@
     }
   }
 }
+
+#bulok{
+
+  background: #010132;
+  .bulok{
+    width: 90%;
+    @include alain();
+
+    &--img{
+      &__buul{
+        width: 430px;
+        height: 187px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
+        padding-left: 23px;
+        padding-top: 21px;
+
+
+      }
+      &__buul p{
+        color: white;
+        font-size: 14px;
+        margin-left: 216px;
+        margin-top: -41px;
+
+      }
+      &__taitl h1{padding-top: 20px;
+        color: white;
+      }
+      &__taitl button{
+        color: white;
+        @include btn();
+
+
+      } &__taitl p{
+          font-size: 14px;width: 479px;
+          color: white;
+          padding: 20px 0;
+        }
+    }
+
+
+    &--divizt{
+      width: 90%;
+      height: 380px;
+      background: #FFFFFF;
+      border-radius: 15px;
+      padding: 20px 30px;
+      margin-left: 20px;
+
+      &__tal{
+        color: #9099A3;
+        font-size: 12px;
+        margin-left: 20px;
+      }
+      &__tal h1{
+        color: #2C3E50;
+        font-size: 36px;
+
+      }
+      &__tal p{
+        color: #2C3E50;
+        font-size: 16px;
+
+      }
+      &__tal img{
+        margin-top: -54px;
+        margin-left: 117px;
+
+
+      }}
+  }
+}
+#texst{
+  background: #010132;
+  .texst{
+    padding: 30px 20px;
+    color: #FFFFFF;
+
+    &--swaip{
+      display: flex;
+      &__tait{ display: flex;
+        width: 90%;
+        height: 300px;
+        left: 80px;
+        top: 0;
+        background: rgb(255, 255, 255);
+        border-radius: 15px;
+
+        &--buri1{
+
+          color: black;
+          margin-top: 117px;
+        }&--buri{
+
+           color: black;
+           margin-top: 48px;
+           margin-left: 40px
+
+         }
+      }
+    }
+
+
+    body {
+
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+#green{
+  background: #010132;
+  padding: 60px 0;
+  .green{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    &--grammar{
+      &--hurt{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        color: #FFFFFF;
+      }
+
+      &--master{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #9099A3;
+      }
+    }
+
+    &--merchant{
+
+      &--mistress{width: 90%;
+        margin-bottom: 30px;
+        &--mosque{
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: #9099A3;
+        }
+
+        input{
+          width: 616px;
+          height: 60px;
+          background: rgba(255, 255, 255, 0.2);
+          border-radius: 15px;
+          border: none;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: rgba(255, 255, 255, 0.99);
+          padding: 0 74px;
+        }
+
+
+      }
+
+      &--myrtle{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--person{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #FFFFFF;
+        }
+
+        &--purple{
+          width: 280px;
+          height: 60px;
+          background: #1A5CFF;
+          box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
+          border-radius: 15px;
+          border: none;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 27px;
+          color: #FFFFFF;
+          &:hover{
+            border: 2px solid #1A5CFF;
+            background: transparent;
+            color: #1A5CFF;
+
 
 #hero {
   background: url("/img/bg.svg") no-repeat center/cover;
@@ -296,12 +522,16 @@
             line-height: 24px;
             text-transform: capitalize;
             color: #FFFFFF;
+
           }
         }
       }
     }
   }
 }
+
+
+
 
 
 

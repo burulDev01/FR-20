@@ -1,3 +1,14 @@
+
+@media (max-width: 992px) {
+  .container{
+    width: 90%;
+  }
+
+  #bulok .bulok {
+    flex-direction: column;
+  }
+
+
 @media (max-width: 1440px) {
     .container{
         width: 90%;
@@ -74,6 +85,8 @@
 
 }
 @media (max-width: 320px) {
+
+
     #moon .moon--m__b {
         padding-right: 5px;
     }
@@ -85,4 +98,5 @@
         color: #1A5CFF;
         padding-right: 24px;
     }
+
 }
