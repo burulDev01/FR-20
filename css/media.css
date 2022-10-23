@@ -1,0 +1,15 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .header--block {
+    display: none;
+  }
+  .header--global {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

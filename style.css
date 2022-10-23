@@ -1,9 +1,4 @@
-/* Error: Undefined mixin.
- *    ,
- * 62 |     @include alain();
- *    |     ^^^^^^^^^^^^^^^^
- *    '
- *   style.scss 62:5  root stylesheet */
+
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -19,6 +14,13 @@ body::before {
    padding: 0;
  }
 
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400;500&family=Ruda:wght@400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 a {
   text-decoration: none;
 }
@@ -28,12 +30,18 @@ a {
   margin: 0 auto;
 }
 
+
 body {
   font-family: sans-serif;
 }
 
 #bulok {
   background: #010132;
+
+#header {
+  background: #1E2024;
+  min-height: 90%;
+
 }
 #bulok .bulok {
   width: 90%;
@@ -106,6 +114,7 @@ body {
 #texst .texst {
   padding: 30px 20px;
   color: #FFFFFF;
+
 }
 #texst .texst--swaip {
   display: flex;
@@ -233,7 +242,146 @@ body {
   border: 2px solid #1A5CFF;
   background: transparent;
   color: #1A5CFF;
+
+  margin-left: 30px;
+  transition: 0.4s;
+  border: none;
+}
+#header .header--global--btn:hover {
+  transform: scale(1.1);
+  background: transparent;
+  border: 2px solid rgba(74, 0, 147, 0.93);
 }
 
-/*# sourceMappingURL=style.css.map */
+#hero {
+  background: url("/img/bg.svg") no-repeat center/cover;
+  min-height: 100vh;
+}
+#hero .hero--first {
+  display: flex;
+  padding: 20px 20px;
+  justify-content: flex-end;
+}
+#hero .hero--first__h1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+#hero .hero--first__p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C3E50;
+}
+#hero .hero--first__icon {
+  color: black;
+}
+#hero .hero--title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: -93px;
+  margin-top: 227px;
+  margin-bottom: 60px;
+}
+#hero .hero--block {
+  width: 103%;
+  height: 160px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+#hero .hero--block__in {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 160px;
+}
+#hero .hero--block__in--1 {
+  margin: 19px 48px 13px;
+}
+#hero .hero--block__in--1--img {
+  width: 37%;
+  margin-left: 12px;
+}
+#hero .hero--block__in--1--h11 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
+#hero .hero--block__in--1--p1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C3E50;
+}
+#hero .hero--block__in--1m {
+  margin: 19px 48px 13px;
+}
+#hero .hero--block__in--1m__img {
+  width: 47%;
+  margin-left: 36px;
+}
+#hero .hero--block__in--1m__h11 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
+#hero .hero--block__in--1m__p1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C3E50;
+  margin-left: 33px;
+}
+#hero .hero--block__in--1v {
+  margin: 19px 48px 13px;
+}
+#hero .hero--block__in--1v__img {
+  width: 83%;
+  margin-left: 2px;
+}
+#hero .hero--block__in--1v__h11 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
+#hero .hero--block__in--1v__p1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C3E50;
+}
+#hero .hero--block__in--1w {
+  margin: 19px 48px 13px;
+}
+#hero .hero--block__in--1w__img {
+  width: 46%;
+  margin-left: 16px;
+}
+#hero .hero--block__in--1w__h11 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2C3E50;
+  margin-bottom: 10px;
+}
+#hero .hero--block__in--1w__p1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #2C3E50;
+  margin-left: 40px;
+
+}
+
+
 
