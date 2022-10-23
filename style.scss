@@ -55,24 +55,12 @@
     }
   }
 }
-
-#hero{
-  background: url("/img/bg.svg") no-repeat center/cover;
-  min-height: 100vh;
-  .hero{
-    &--first{
-      display: flex;
-      padding: 20px 20px;
-      justify-content: flex-end;
-      &__h1 {
-      }
 #bulok{
-
   background: #010132;
+  width: 90%;
   .bulok {
-    width: 90%;
     @include alain();
-  }
+
     &--img{
       &__buul{
         width: 430px;
@@ -137,7 +125,6 @@
 
       }}
   }
-}
 #texst{
   background: #010132;
   .texst{
