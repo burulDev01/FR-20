@@ -25,9 +25,10 @@
 
 
 @media (max-width: 1024px) {
-    #trip .trip--block--title{
+    #trip .trip--block--title {
         font-size: 13px;
-} {
+    }
+
     #green .green {
         padding-top: 30px;
         display: flex;
@@ -45,20 +46,17 @@
     }
 }
 
-}
 @media (max-width: 992px) {
-
     #trip .trip {
         display: flex;
         align-items: center;
         flex-direction: column;
         padding: 15px 0;
-    }{
+    }
     #bulok .bulok--divizt {
         padding: 20px 0;
         margin-left: -5px;
     }
-}
 
     #top .top--as {
         display: flex;
@@ -91,12 +89,25 @@
         margin-bottom: 180px;
         padding-left: 32px;
         padding-top: 20px;
-    }#green .green--merchant--myrtle {
-         display: flex;
-         justify-content: flex-start;
-         align-items: center;
-     }
+    }
+    #green .green--merchant--myrtle {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
 }
+@media (max-width: 912px) {
+    #pentium .pentium--details {
+        width: 819px;
+        height: 37px;
+        box-shadow: 0 2px 8px rgb(255 255 255);
+        border-radius: 10px;
+        margin-bottom: 180px;
+        padding-left: 32px;
+        padding-top: 20px;
+    }
+}
+
 @media (max-width: 768px) {
     .header--block{
         display: none;
@@ -137,6 +148,20 @@
         margin-bottom: 180px;
         padding-left: 32px;
         padding-top: 20px;
+    }
+    #pentium .pentium--btn {
+        font-weight: 900;
+        line-height: 22px;
+        font-size: 14px;
+        color: #FFFFFF;
+        width: 400px;
+        height: 40px;
+        background: #1A5CFF;
+        box-shadow: 0 5px 8px rgb(26 92 255 / 20%);
+        border-radius: 15px;
+        border: none;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 }
 @media (max-width: 576px) {
@@ -265,15 +290,14 @@
     }
     @media (max-width: 400px) {
         #texst .texst--swaip__tait--buri1 {
-
             display: none;
-        }
         width: 323px;
         height: 252px;
         background: rgba(255, 255, 255, 0.2);
         border-radius: 15px;
         padding-left: 23px;
         padding-top: 24px;
+    }
 
         #bulok .bulok--img__buul {
         width: 313px;

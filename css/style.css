@@ -560,6 +560,24 @@ a {
   line-height: 21px;
   color: #2C3E50;
 }
+#trip .trip--btn {
+  font-weight: 900;
+  line-height: 22px;
+  font-size: 14px;
+  color: #FFFFFF;
+  width: 400px;
+  height: 40px;
+  background: #1A5CFF;
+  box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  margin: 20px 0;
+}
+#trip .trip--btn:hover {
+  background: transparent;
+  transform: scale(1.1);
+  border: 2px solid rgba(74, 0, 147, 0.93);
+}
 
 #top {
   background: #1E2023;
@@ -700,7 +718,6 @@ a {
   box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
   border-radius: 15px;
   border: none;
-  margin-left: 400px;
   margin-top: 20px;
   margin-bottom: 30px;
 }

@@ -13,7 +13,7 @@ a {
   margin: 0 auto;
 }
 
-@mixin alain {
+@mixin align {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,7 +37,7 @@ a {
   }
 }
 
-@mixin align {
+@mixin alain {
   display: flex;
   justify-content: space-between;
   align-items: center;
