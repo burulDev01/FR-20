@@ -6,6 +6,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4e1b15a-3299-4588-b406-448bf2b8208c" name="Changes" comment="">
+
+      <change afterPath="$PROJECT_DIR$/img/people.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -16,6 +25,7 @@
 
       <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
  master
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +62,12 @@
 
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
 
+
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+
 
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -74,6 +88,18 @@
       <workItem from="1665998708879" duration="111000" />
 
       <workItem from="1665998859205" duration="4902000" />
+
+      <workItem from="1666005401676" duration="422000" />
+      <workItem from="1666024038003" duration="41000" />
+      <workItem from="1666024105287" duration="5000" />
+      <workItem from="1666024123041" duration="17000" />
+      <workItem from="1666024164757" duration="1470000" />
+      <workItem from="1666070120615" duration="79000" />
+      <workItem from="1666070231424" duration="859000" />
+      <workItem from="1666183768313" duration="5000" />
+      <workItem from="1666204147148" duration="92000" />
+      <workItem from="1666242830337" duration="456000" />
+
 
       <workItem from="1666239993987" duration="117000" />
       <workItem from="1666240143929" duration="56000" />
@@ -100,11 +126,27 @@
       <workItem from="1665998859205" duration="8835000" />
       <workItem from="1666198919198" duration="2054000" />
 
+
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
 </project>
+
+</project>
+
 
