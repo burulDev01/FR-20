@@ -37,8 +37,24 @@ a {
   }
 }
 
-@mixin alain{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+
+@mixin btn2 {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  width: 100px;
+  height: 40px;
+  background: #1A5CFF;
+  box-shadow: 0px 5px 8px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+
+  &:hover{
+    background: transparent;
+    transform: scale(1.1);
+    border: 2px solid rgba(74,0,147,0.93)
+
+  }
 }
