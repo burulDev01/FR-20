@@ -1,4 +1,14 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 24e30057281112f8c471b52f8b4af5a5af1505cc
+=======
 
+>>>>>>> 460d367ef48d00b524d9500c304eaecbefa8e5a7
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
@@ -9,6 +19,15 @@
 
       <change afterPath="$PROJECT_DIR$/img/people.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
+=======
+>>>>>>> 8815d8efb5f34f8091d5c104c5d46d7da0b6eb88
+>>>>>>> 24e30057281112f8c471b52f8b4af5a5af1505cc
+=======
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/reset.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -26,6 +45,7 @@
       <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
  master
 
+>>>>>>> 460d367ef48d00b524d9500c304eaecbefa8e5a7
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,16 +79,28 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+<<<<<<< HEAD
+<<<<<<< HEAD
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+=======
+<<<<<<< HEAD
+=======
 
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
 
 
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
 
+>>>>>>> 460d367ef48d00b524d9500c304eaecbefa8e5a7
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+<<<<<<< HEAD
+>>>>>>> 8815d8efb5f34f8091d5c104c5d46d7da0b6eb88
+>>>>>>> 24e30057281112f8c471b52f8b4af5a5af1505cc
+=======
 
 
+>>>>>>> 460d367ef48d00b524d9500c304eaecbefa8e5a7
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -86,7 +118,15 @@
       <option name="presentableId" value="Default" />
       <updated>1665998707523</updated>
       <workItem from="1665998708879" duration="111000" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <workItem from="1665998859205" duration="8835000" />
+      <workItem from="1666198919198" duration="2054000" />
+=======
+<<<<<<< HEAD
+=======
 
+>>>>>>> 460d367ef48d00b524d9500c304eaecbefa8e5a7
       <workItem from="1665998859205" duration="4902000" />
 
       <workItem from="1666005401676" duration="422000" />
@@ -125,8 +165,13 @@
 
       <workItem from="1665998859205" duration="8835000" />
       <workItem from="1666198919198" duration="2054000" />
+<<<<<<< HEAD
+>>>>>>> 8815d8efb5f34f8091d5c104c5d46d7da0b6eb88
+>>>>>>> 24e30057281112f8c471b52f8b4af5a5af1505cc
+=======
 
 
+>>>>>>> 460d367ef48d00b524d9500c304eaecbefa8e5a7
     </task>
     <servers />
   </component>
@@ -146,7 +191,21 @@
     </option>
   </component>
 </project>
+<<<<<<< HEAD
+=======
+>>>>>>> cbbaec76b8167e77715329f3da93e9ccd45907f8
+=======
+>>>>>>> e961ecb8bf62ba30e56844337ed91d774b516058
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0000cdaed90c551e1b19622577000ad0ffa1a956
+=======
+>>>>>>> a1f9c8777a1e02df73b8b206c3cbf2fa56e4e338
+>>>>>>> 24e30057281112f8c471b52f8b4af5a5af1505cc
+=======
 
 </project>
 
 
+>>>>>>> 460d367ef48d00b524d9500c304eaecbefa8e5a7

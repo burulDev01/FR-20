@@ -13,26 +13,32 @@ a {
   margin: 0 auto;
 }
 
-@mixin align {
+@mixin alain {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-//@mixin btn{
-//  font-weight: 900;
-//  line-height: 22px;
-//  font-size: 14px;
-//  color: #FFFFFF;
-//  width: 100px;
-//  height: 40px;
-//  background: #1A5CFF;
-//  box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
-//  border-radius: 15px;
-//  border: none;
-//  &:hover{
-//    background: transparent;
-//    transform: scale(1.1);
-//    border: 2px solid rgba(74,0,147,0.93);
-//  }
-//}
+@mixin btn{
+  font-weight: 900;
+  line-height: 22px;
+  font-size: 14px;
+  color: #FFFFFF;
+  width: 400px;
+  height: 40px;
+  background: #1A5CFF;
+  box-shadow: 0 5px 8px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  border: none;
+  &:hover{
+    background: transparent;
+    transform: scale(1.1);
+    border: 2px solid rgba(74,0,147,0.93);
+  }
+}
+
+@mixin align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
