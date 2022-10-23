@@ -1,3 +1,33 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
-/*# sourceMappingURL=reset.css.map */
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+body{
+    font-family: sans-serif;
+}
+@mixin alain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin btn {
+    width: 200px;
+    height: 40px;
+    background: #1A5CFF;
+    box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+    border-radius: 15px;
+    transition: .4s;
+
+}
+
